@@ -1,0 +1,8 @@
+.lose-block {
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}

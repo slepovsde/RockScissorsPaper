@@ -1,0 +1,28 @@
+.list-item {
+	margin-bottom: 5px;
+}
+
+.list-item:last-child {
+	margin-bottom: 0;
+}
+
+.lobby__players {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+	border-radius: 6px;
+    max-height: 40vh;
+    margin: 0 0 20px;
+    padding: 10px;
+    overflow-y: scroll;
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.lobby__players_you {
+	color: rgb(255, 255, 255);
+}

@@ -1,0 +1,19 @@
+.playBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    margin: 0px 0 30px; 
+}
+
+.rock {
+    margin-bottom: 8px;
+}
+
+.scissors {
+    margin-bottom: 8px;
+}
+
